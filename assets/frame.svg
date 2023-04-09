@@ -1,0 +1,41 @@
+<svg
+  width="374"
+  height="132"
+  viewBox="0 0 374 132"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+<rect
+    x="15"
+    y="15"
+    width="346"
+    height="101"
+    stroke="#706FE5"
+    stroke-width="8"
+  />
+<circle
+    cx="14"
+    cy="118"
+    r="10"
+    fill="white"
+    stroke="#706FE5"
+    stroke-width="8"
+  />
+<circle
+    cx="360"
+    cy="118"
+    r="10"
+    fill="white"
+    stroke="#706FE5"
+    stroke-width="8"
+  />
+<circle cx="14" cy="14" r="10" fill="white" stroke="#706FE5" stroke-width="8" />
+<circle
+    cx="360"
+    cy="14"
+    r="10"
+    fill="white"
+    stroke="#706FE5"
+    stroke-width="8"
+  />
+</svg>

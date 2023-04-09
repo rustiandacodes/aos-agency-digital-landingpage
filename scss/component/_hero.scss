@@ -1,0 +1,119 @@
+@use '../base/colors';
+
+#hero {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .hero-text {
+    width: 50%;
+    h1 {
+      color: colors.$mainColorTwo;
+      line-height: 1.8;
+      span {
+        margin-left: 80px;
+        position: relative;
+        color: colors.$mainColor;
+        img {
+          position: absolute;
+          left: -70px;
+          top: -25px;
+        }
+      }
+    }
+    p {
+      color: colors.$secondColor;
+      margin: 3rem 0;
+    }
+    .hero-button {
+      display: flex;
+      gap: 10px;
+      button {
+        color: colors.$white;
+        padding: 1em 2em 1em 2em;
+        border-radius: 8px;
+        background-color: colors.$mainColor;
+      }
+    }
+  }
+  .hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .i-figma {
+      position: absolute;
+      width: 100px;
+      top: 90px;
+      right: 120px;
+    }
+    .i-xd {
+      position: absolute;
+      width: 80px;
+      top: 70px;
+      left: 120px;
+    }
+    .i-sketch {
+      position: absolute;
+      width: 60px;
+      left: 70px;
+      top: 35px;
+    }
+    img {
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  #hero {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 10px;
+    gap: 30px;
+    .hero-text,
+    .hero-image {
+      width: auto;
+    }
+    .hero-text {
+      h1 {
+        line-height: 1.2;
+        span {
+          margin: 0;
+          img {
+            display: none;
+          }
+        }
+      }
+      p {
+        margin: 2rem 0;
+      }
+    }
+    .hero-image {
+      display: block;
+      position: relative;
+      background-color: aqua;
+      .i-figma {
+        position: absolute;
+        width: 60px;
+        top: 40px;
+        right: 50px;
+      }
+      .i-xd {
+        position: absolute;
+        width: 50px;
+        top: 50px;
+        left: 60px;
+      }
+      .i-sketch {
+        position: absolute;
+        width: 35px;
+        top: 25px;
+        left: 30px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

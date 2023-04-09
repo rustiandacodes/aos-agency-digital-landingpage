@@ -15,12 +15,12 @@ button {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-body {
+* {
   font-family: "Montserrat", sans-serif;
 }
 
 .text-super {
-  font-size: clamp(2rem, -0.1875rem + 7vw, 3.75rem);
+  font-size: clamp(2.25rem, 0.6875rem + 5vw, 3.5rem);
 }
 
 .text-title {
@@ -33,7 +33,9 @@ body {
   line-height: 1.5;
 }
 
-.text-paraghraph {
+.text-paraghraph,
+button,
+a {
   font-size: clamp(1rem, 0.6875rem + 1vw, 1.25rem);
   line-height: 1.5;
 }
@@ -44,8 +46,122 @@ body {
 }
 
 .container {
-  width: min(85%, 1100px);
+  width: min(85%, 1250px);
   margin: 0 auto;
 }
 
-/*# sourceMappingURL=styles.css.map */
+#hero {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero-text {
+  width: 50%;
+}
+#hero .hero-text h1 {
+  color: #1e1f4b;
+  line-height: 1.8;
+}
+#hero .hero-text h1 span {
+  margin-left: 80px;
+  position: relative;
+  color: #706fe5;
+}
+#hero .hero-text h1 span img {
+  position: absolute;
+  left: -70px;
+  top: -25px;
+}
+#hero .hero-text p {
+  color: #2e3e5c;
+  margin: 3rem 0;
+}
+#hero .hero-text .hero-button {
+  display: flex;
+  gap: 10px;
+}
+#hero .hero-text .hero-button button {
+  color: #ffffff;
+  padding: 1em 2em 1em 2em;
+  border-radius: 8px;
+  background-color: #706fe5;
+}
+#hero .hero-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#hero .hero-image .i-figma {
+  position: absolute;
+  width: 100px;
+  top: 90px;
+  right: 120px;
+}
+#hero .hero-image .i-xd {
+  position: absolute;
+  width: 80px;
+  top: 70px;
+  left: 120px;
+}
+#hero .hero-image .i-sketch {
+  position: absolute;
+  width: 60px;
+  left: 70px;
+  top: 35px;
+}
+#hero .hero-image img {
+  width: 85%;
+}
+
+@media (max-width: 860px) {
+  #hero {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 10px;
+    gap: 30px;
+  }
+  #hero .hero-text,
+  #hero .hero-image {
+    width: auto;
+  }
+  #hero .hero-text h1 {
+    line-height: 1.2;
+  }
+  #hero .hero-text h1 span {
+    margin: 0;
+  }
+  #hero .hero-text h1 span img {
+    display: none;
+  }
+  #hero .hero-text p {
+    margin: 2rem 0;
+  }
+  #hero .hero-image {
+    display: block;
+    position: relative;
+    background-color: aqua;
+  }
+  #hero .hero-image .i-figma {
+    position: absolute;
+    width: 60px;
+    top: 40px;
+    right: 50px;
+  }
+  #hero .hero-image .i-xd {
+    position: absolute;
+    width: 50px;
+    top: 50px;
+    left: 60px;
+  }
+  #hero .hero-image .i-sketch {
+    position: absolute;
+    width: 35px;
+    top: 25px;
+    left: 30px;
+  }
+  #hero .hero-image img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

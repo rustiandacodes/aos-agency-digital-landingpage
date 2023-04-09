@@ -6,7 +6,7 @@
 
 // size from 60px to 32px
 .text-super {
-  font-size: clamp(2rem, -0.1875rem + 7vw, 3.75rem);
+  font-size: clamp(2.25rem, 0.6875rem + 5vw, 3.5rem);
 }
 // size from 40px to 28px
 .text-title {
@@ -19,7 +19,9 @@
   line-height: 1.5;
 }
 // size from 20px to 16px
-.text-paraghraph {
+.text-paraghraph,
+button,
+a {
   font-size: clamp(1rem, 0.6875rem + 1vw, 1.25rem);
   line-height: 1.5;
 }
