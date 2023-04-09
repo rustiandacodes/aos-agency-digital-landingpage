@@ -41,4 +41,11 @@ body {
 .text-tiny {
   font-size: clamp(0.875rem, 0.7188rem + 0.5vw, 1rem);
   line-height: 1.5;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.container {
+  width: min(85%, 1100px);
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
