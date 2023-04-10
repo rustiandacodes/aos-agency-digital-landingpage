@@ -4,11 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animate Scroll Transition</title>
+    <title>Power Agency Digital</title>
     <link rel="stylesheet" href="scss/styles.css" />
-    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
+    <!-- start navbar -->
+    <nav>
+      <div class="navbar container">
+        <img src="/assets/navbar-logo.svg" alt="navbar-logo" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#home">About Us</a></li>
+          <li><a href="#home">Services</a></li>
+          <li><a href="#home">Products</a></li>
+        </ul>
+        <div class="menu">
+          <i data-feather="menu"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
     <!-- hero Section -->
     <section id="hero" class="container">
       <div class="hero-text">
@@ -38,5 +54,9 @@
         <img src="assets/hero-image.png" alt="hero-image" />
       </div>
     </section>
+    <script>
+      feather.replace()
+    </script>
+    <script src="js/app.js"></script>
   </body>
 </html>

@@ -5,6 +5,4 @@
 
 @use 'abstract/mixins';
 @use 'component/hero';
-* {
-  //   border: solid 1px black;
-}
+@use 'component/navbar';

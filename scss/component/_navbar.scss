@@ -1,0 +1,63 @@
+@use '../base/colors';
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: colors.$white;
+  .navbar {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    ul {
+      display: flex;
+      gap: 60px;
+      justify-content: center;
+      a {
+        color: colors.$mainColorTwo;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      a:hover {
+        opacity: 80%;
+      }
+    }
+    .menu {
+      width: 40px;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  nav {
+    .navbar {
+      padding: 1.5rem 0;
+      ul {
+        // display: none;
+        // transform: translateX(-800px);
+        z-index: -1;
+        transform: translateX(-100%);
+        transition: all 1s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        flex-direction: column;
+        gap: 30px;
+        width: 100vw;
+        height: 100vh;
+      }
+      li {
+        text-align: center;
+      }
+      .show {
+        transform: translateX(0);
+      }
+    }
+  }
+}

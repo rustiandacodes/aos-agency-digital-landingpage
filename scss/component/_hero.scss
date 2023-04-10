@@ -1,7 +1,7 @@
 @use '../base/colors';
 
 #hero {
-  margin-top: 20px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +28,7 @@
     .hero-button {
       display: flex;
       gap: 20px;
-      max-height: 80px;
+      max-height: 50px;
       button {
         padding-inline: 20px;
         color: colors.$white;
