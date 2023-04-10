@@ -1,7 +1,7 @@
 @use '../base/colors';
 
 #hero {
-  margin-top: 100px;
+  padding: 100px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,16 +9,9 @@
     width: 50%;
     h1 {
       color: colors.$mainColorTwo;
-      line-height: 1.8;
+      line-height: 1.3;
       span {
-        margin-left: 80px;
-        position: relative;
         color: colors.$mainColor;
-        img {
-          position: absolute;
-          left: -70px;
-          top: -25px;
-        }
       }
     }
     p {
@@ -81,7 +74,7 @@
   #hero {
     display: flex;
     flex-direction: column-reverse;
-    padding: 0 10px;
+    padding: 100px 10px 130px 10px;
     gap: 30px;
     .hero-text,
     .hero-image {
@@ -90,6 +83,8 @@
     .hero-text {
       h1 {
         line-height: 1.2;
+        font-size: 32px;
+        text-align: center;
         span {
           margin: 0;
           img {

@@ -1,0 +1,64 @@
+@use '../base/colors';
+
+#product {
+  padding: 5rem 10px;
+  h2 {
+    color: colors.$mainColorTwo;
+    margin-bottom: 10px;
+  }
+  .product-title {
+    margin-bottom: 50px;
+  }
+  .products {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    .main-product,
+    .other-product {
+      width: 100%;
+    }
+    .main-product {
+      img {
+        margin-bottom: 20px;
+      }
+      h3 {
+        margin: 0.5rem 0;
+      }
+    }
+    .other-product {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .card {
+        padding: 10px;
+        width: 47%;
+        margin-bottom: 20px;
+        h3 {
+          margin-top: 10px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .products {
+    flex-direction: column;
+    gap: 60px;
+    .main-product {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .other-product {
+    .card {
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -27,7 +27,7 @@ nav {
       }
     }
     .menu {
-      width: 40px;
+      margin-right: 120px;
     }
   }
 }
@@ -35,7 +35,7 @@ nav {
 @media (max-width: 760px) {
   nav {
     .navbar {
-      padding: 1.5rem 0;
+      padding: 1rem 0;
       ul {
         // display: none;
         // transform: translateX(-800px);
@@ -54,6 +54,10 @@ nav {
       }
       li {
         text-align: center;
+      }
+      .menu {
+        margin-right: 0px;
+        cursor: pointer;
       }
       .show {
         transform: translateX(0);
