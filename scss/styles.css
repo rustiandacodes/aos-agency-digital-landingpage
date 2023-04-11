@@ -345,4 +345,55 @@ nav .navbar .menu {
   .other-product .card h3 {
     font-size: 16px;
   }
+}
+#testimonials {
+  padding: 5rem 10px;
+  text-align: center;
+}
+#testimonials .comment {
+  position: relative;
+  width: 60%;
+  margin-inline: auto;
+}
+#testimonials .comment h1 {
+  font-size: 100px;
+  color: #706fe5;
+  position: absolute;
+}
+#testimonials .comment .petik-left {
+  left: 0;
+  left: -60px;
+}
+#testimonials .comment .petik-right {
+  right: -60px;
+}
+#testimonials .comment p {
+  padding: 50px 0;
+  line-height: 3;
+}
+#testimonials .people-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#testimonials .people-image .image-container-main img {
+  border: 5px solid #706fe5;
+  border-radius: 100%;
+  padding: 3px;
+}
+
+@media (max-width: 760px) {
+  #testimonials .comment {
+    width: 90%;
+  }
+  #testimonials .comment h1 {
+    display: none;
+  }
+  #testimonials .comment p {
+    line-height: 2;
+  }
+  #testimonials .people-image {
+    overflow: hidden;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,56 @@
+@use '../base/colors';
+
+#testimonials {
+  padding: 5rem 10px;
+  text-align: center;
+  .comment {
+    position: relative;
+    width: 60%;
+    margin-inline: auto;
+    h1 {
+      font-size: 100px;
+      color: colors.$mainColor;
+      position: absolute;
+    }
+    .petik-left {
+      left: 0;
+      left: -60px;
+    }
+    .petik-right {
+      right: -60px;
+    }
+    p {
+      padding: 50px 0;
+      line-height: 3;
+    }
+  }
+  .people-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    .image-container-main {
+      img {
+        border: 5px solid colors.$mainColor;
+        border-radius: 100%;
+        padding: 3px;
+      }
+    }
+  }
+}
+@media (max-width: 760px) {
+  #testimonials {
+    .comment {
+      width: 90%;
+      h1 {
+        display: none;
+      }
+      p {
+        line-height: 2;
+      }
+    }
+    .people-image {
+      overflow: hidden;
+    }
+  }
+}
