@@ -8,7 +8,7 @@ nav {
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   background: colors.$white;
   .navbar {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,7 @@ nav {
       justify-content: center;
       a {
         color: colors.$mainColorTwo;
+        font-weight: 600;
         text-decoration: none;
         font-size: 16px;
       }
@@ -27,7 +28,7 @@ nav {
       }
     }
     .menu {
-      margin-right: 120px;
+      display: none;
     }
   }
 }
@@ -56,7 +57,7 @@ nav {
         text-align: center;
       }
       .menu {
-        margin-right: 0px;
+        display: block;
         cursor: pointer;
       }
       .show {
