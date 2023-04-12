@@ -159,7 +159,6 @@ html {
   }
   #hero .hero-text .hero-button .watch-button {
     width: 100%;
-    background-color: #ececec;
   }
   #hero .hero-image {
     display: block;
@@ -273,7 +272,7 @@ nav .navbar .menu {
   margin-inline: auto;
   padding: 80px 10px;
   text-align: center;
-  background-color: #ececec;
+  background-color: #f1f1f1;
 }
 #partnership h3 {
   margin-bottom: 3rem;
@@ -446,16 +445,16 @@ nav .navbar .menu {
   align-items: center;
   gap: 8px;
   padding: 1.3em;
-  background: #ececec;
+  background: #f1f1f1;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #services .newsletter .email i {
-  color: #ececec;
+  color: #f1f1f1;
 }
 #services .newsletter .email input {
   padding: 10px;
   border: none;
-  background-color: #ececec;
+  background-color: #f1f1f1;
 }
 #services .newsletter .email input:focus {
   outline: none;
@@ -548,13 +547,16 @@ footer .socials-media .socmed-icon {
   gap: 20px;
 }
 footer .socials-media .socmed-icon .icon-container {
-  background-color: #706fe5;
+  display: flex;
+  justify-content: center;
   padding: 15px;
   border-radius: 100%;
+  background-color: #706fe5;
+  cursor: pointer;
 }
 footer hr {
   margin: 20px 0;
-  border: 1px solid #ececec;
+  border: 1px solid #f1f1f1;
 }
 footer .links {
   display: flex;

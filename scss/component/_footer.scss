@@ -14,9 +14,12 @@ footer {
       justify-content: center;
       gap: 20px;
       .icon-container {
-        background-color: colors.$mainColor;
+        display: flex;
+        justify-content: center;
         padding: 15px;
         border-radius: 100%;
+        background-color: colors.$mainColor;
+        cursor: pointer;
       }
     }
   }
