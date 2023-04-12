@@ -51,6 +51,10 @@ a {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #hero {
   padding: 100px 0;
   display: flex;
@@ -103,21 +107,21 @@ a {
 }
 #hero .hero-image .i-figma {
   position: absolute;
-  width: 100px;
-  top: 90px;
+  width: 80px;
+  top: 80px;
   right: 120px;
 }
 #hero .hero-image .i-xd {
   position: absolute;
-  width: 80px;
-  top: 70px;
+  width: 70px;
+  top: 60px;
   left: 120px;
 }
 #hero .hero-image .i-sketch {
   position: absolute;
   width: 60px;
   left: 70px;
-  top: 35px;
+  top: 25px;
 }
 #hero .hero-image img {
   width: 85%;
