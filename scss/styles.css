@@ -97,7 +97,6 @@ html {
   gap: 20px;
   border-radius: 8px;
   cursor: pointer;
-  background-color: #ececec;
 }
 #hero .hero-image {
   width: 50%;
@@ -160,6 +159,7 @@ html {
   }
   #hero .hero-text .hero-button .watch-button {
     width: 100%;
+    background-color: #ececec;
   }
   #hero .hero-image {
     display: block;
