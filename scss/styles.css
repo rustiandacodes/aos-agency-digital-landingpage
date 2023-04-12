@@ -268,7 +268,7 @@ nav .navbar .menu {
   margin-inline: auto;
   padding: 80px 10px;
   text-align: center;
-  background-color: #e9e9e9;
+  background-color: #ececec;
 }
 #partnership h3 {
   margin-bottom: 3rem;
@@ -348,7 +348,7 @@ nav .navbar .menu {
   }
 }
 #testimonials {
-  padding: 5rem 0;
+  padding-bottom: 3rem 0 5rem 0;
   text-align: center;
   position: relative;
 }
@@ -394,6 +394,10 @@ nav .navbar .menu {
   border-radius: 100%;
   padding: 3px;
 }
+#testimonials .people-name {
+  margin: 20px 0;
+  text-align: center;
+}
 
 @media (max-width: 760px) {
   #testimonials .property-1,
@@ -437,16 +441,16 @@ nav .navbar .menu {
   align-items: center;
   gap: 8px;
   padding: 1.3em;
-  background: #e9e9e9;
+  background: #ececec;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #services .newsletter .email i {
-  color: #e9e9e9;
+  color: #ececec;
 }
 #services .newsletter .email input {
   padding: 10px;
   border: none;
-  background-color: #e9e9e9;
+  background-color: #ececec;
 }
 #services .newsletter .email input:focus {
   outline: none;
@@ -502,10 +506,12 @@ nav .navbar .menu {
   }
   #services .newsletter .email input {
     width: 100%;
+    padding: 1rem;
     border: 2px solid #1e1f4b;
     border-radius: 10px;
   }
   #services .newsletter .email button {
+    padding: 1rem;
     width: 100%;
   }
   #services .newsletter p {
@@ -517,5 +523,84 @@ nav .navbar .menu {
   }
   #services .services {
     padding: 10px;
+  }
+}
+footer {
+  padding: 5rem 0;
+  background-color: #2e3e5c;
+  color: #ffffff;
+}
+footer .socials-media {
+  display: flex;
+  justify-content: space-between;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+footer .socials-media .socmed-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+footer .socials-media .socmed-icon .icon-container {
+  background-color: #706fe5;
+  padding: 15px;
+  border-radius: 100%;
+}
+footer hr {
+  margin: 20px 0;
+  border: 1px solid #ececec;
+}
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .links ul {
+  display: flex;
+  padding: 50px 0;
+  gap: 20px;
+}
+footer .links ul a {
+  text-decoration: none;
+  color: white;
+}
+footer .links button {
+  background-color: #706fe5;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+footer .copyright {
+  padding: 40px 0;
+}
+footer .copyright p {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .socials-media {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-bottom: 50px;
+  }
+  .socials-media .logo-company {
+    display: flex;
+    justify-content: center;
+  }
+  .socials-media .logo-company img {
+    margin-inline: auto;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .links button {
+    width: 100%;
+    margin-bottom: 50px;
   }
 }/*# sourceMappingURL=styles.css.map */

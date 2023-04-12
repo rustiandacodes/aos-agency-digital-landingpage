@@ -1,7 +1,7 @@
 @use '../base/colors';
 
 #testimonials {
-  padding: 5rem 0;
+  padding-bottom: 3rem 0 5rem 0;
   text-align: center;
   position: relative;
   .property-1 {
@@ -48,6 +48,10 @@
         padding: 3px;
       }
     }
+  }
+  .people-name {
+    margin: 20px 0;
+    text-align: center;
   }
 }
 @media (max-width: 760px) {

@@ -1,0 +1,81 @@
+@use '../base/colors';
+
+footer {
+  padding: 5rem 0;
+  background-color: colors.$secondColor;
+  color: colors.$white;
+  .socials-media {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    .socmed-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      .icon-container {
+        background-color: colors.$mainColor;
+        padding: 15px;
+        border-radius: 100%;
+      }
+    }
+  }
+  hr {
+    margin: 20px 0;
+    border: 1px solid colors.$softGrey;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      padding: 50px 0;
+      gap: 20px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    button {
+      background-color: colors.$mainColor;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  }
+  .copyright {
+    padding: 40px 0;
+    p {
+      color: white;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .socials-media {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-bottom: 50px;
+    .logo-company {
+      display: flex;
+      justify-content: center;
+      img {
+        margin-inline: auto;
+      }
+    }
+  }
+
+  .links {
+    flex-direction: column;
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    button {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+}

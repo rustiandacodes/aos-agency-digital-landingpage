@@ -87,10 +87,12 @@
         margin: 50px 0;
         input {
           width: 100%;
+          padding: 1rem;
           border: 2px solid colors.$mainColorTwo;
           border-radius: 10px;
         }
         button {
+          padding: 1rem;
           width: 100%;
         }
       }
