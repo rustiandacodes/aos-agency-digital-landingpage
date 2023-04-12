@@ -22,6 +22,7 @@
       display: flex;
       gap: 20px;
       max-height: 50px;
+      margin-bottom: 40px;
       button {
         padding-inline: 20px;
         color: colors.$white;
@@ -38,6 +39,7 @@
         gap: 20px;
         border-radius: 8px;
         cursor: pointer;
+        background-color: colors.$softGrey;
       }
     }
   }
@@ -70,7 +72,7 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 810px) {
   #hero {
     display: flex;
     flex-direction: column-reverse;
@@ -101,7 +103,7 @@
           padding: 15px 0;
         }
         .watch-button {
-          width: fit-content;
+          width: 100%;
         }
       }
     }

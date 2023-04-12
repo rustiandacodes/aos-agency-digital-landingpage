@@ -75,6 +75,7 @@ a {
   display: flex;
   gap: 20px;
   max-height: 50px;
+  margin-bottom: 40px;
 }
 #hero .hero-text .hero-button button {
   padding-inline: 20px;
@@ -92,6 +93,7 @@ a {
   gap: 20px;
   border-radius: 8px;
   cursor: pointer;
+  background-color: #ececec;
 }
 #hero .hero-image {
   width: 50%;
@@ -121,7 +123,7 @@ a {
   width: 85%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 810px) {
   #hero {
     display: flex;
     flex-direction: column-reverse;
@@ -153,8 +155,7 @@ a {
     padding: 15px 0;
   }
   #hero .hero-text .hero-button .watch-button {
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 100%;
   }
   #hero .hero-image {
     display: block;
@@ -335,7 +336,7 @@ nav .navbar .menu {
   width: 100%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 810px) {
   .products {
     flex-direction: column;
     gap: 60px;
@@ -487,7 +488,7 @@ nav .navbar .menu {
   margin: 10px 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 810px) {
   #services {
     flex-direction: column;
   }
@@ -572,7 +573,7 @@ footer .links button {
   border-radius: 10px;
 }
 footer .copyright {
-  padding: 40px 0;
+  padding-top: 40px;
 }
 footer .copyright p {
   color: white;
