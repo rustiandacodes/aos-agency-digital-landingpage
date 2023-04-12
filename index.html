@@ -7,6 +7,8 @@
     <title>Power Agency Digital</title>
     <link rel="icon" type="favicon.ico" href="/images/favicon.ico" />
     <link rel="stylesheet" href="scss/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
@@ -29,7 +31,7 @@
 
     <!-- start hero Section -->
     <section id="hero" class="container">
-      <div class="hero-text">
+      <div class="hero-text" data-aos="fade-right" data-aos-duration="2000">
         <h1 class="text-super">
           We Design Impactful Digital
           <span>
@@ -48,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="hero-image">
+      <div class="hero-image" data-aos="fade-left" data-aos-duration="2000">
         <img src="assets/figma.svg" class="i-figma" alt="figma" />
         <img src="assets/xd.svg" class="i-xd" alt="xd" />
         <img src="assets/sketch.svg" class="i-sketch" alt="xd" />
@@ -58,7 +60,7 @@
     <!-- end hero Section -->
 
     <!-- start partnership -->
-    <section id="partnership">
+    <section id="partnership" data-aos="fade-up" data-aos-duration="2000">
       <h3 class="text-subtitle">Trusted by greatest companies</h3>
       <div class="partnership-logo">
         <img src="assets/google.svg" alt="google-icon" />
@@ -72,7 +74,7 @@
 
     <!-- start example products -->
     <section id="products" class="container product">
-      <div class="product-title">
+      <div class="product-title" data-aos="fade-right" data-aos-duration="1000">
         <h2 class="text-title">We create world-class digital products</h2>
         <p class="text-paraghraph">
           By information about design the world to the best instructors, heatc
@@ -80,7 +82,11 @@
         </p>
       </div>
       <div class="products">
-        <div class="main-product">
+        <div
+          class="main-product"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <img src="assets/main-product.png" alt="produtcs" />
           <p class="text-paraghraph">App Design - June 20, 2022</p>
           <h3 class="text-subtitle">App Redesign</h3>
@@ -91,22 +97,22 @@
           </p>
         </div>
         <div class="other-product">
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="2000">
             <img src="assets/other-png01.png" alt="produtcs" />
             <p class="text-tiny">App Design - June 20, 2022</p>
             <h3>Redesign channel website landing page</h3>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="3000">
             <img src="assets/other-png02.png" alt="produtcs" />
             <p class="text-tiny">App Design - June 20, 2022</p>
             <h3>New Locator App For a New Company</h3>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="2000">
             <img src="assets/other-png03.png" alt="produtcs" />
             <p class="text-tiny">App Design - June 20, 2022</p>
             <h3>Rental Rooms Web App Platform</h3>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="3000">
             <img src="assets/other-png04.png" alt="produtcs" />
             <p class="text-tiny">App Design - June 20, 2022</p>
             <h3>Calendar App for Big SASS Company</h3>
@@ -121,11 +127,17 @@
       <img src="assets/peoperty.svg" class="property-1" alt="property" />
       <img src="assets/peoperty.svg" class="property-2" alt="property" />
       <div class="testimonial-text">
-        <h2 class="text-title">Let’s hear</h2>
-        <h2 class="text-title">What they says</h2>
-        <div class="comment">
-          <h1 class="petik-left">"</h1>
-          <h1 class="petik-right">"</h1>
+        <div data-aos="fade-up" data-aos-duration="2000">
+          <h2 class="text-title">Let’s hear</h2>
+          <h2 class="text-title">What they says</h2>
+        </div>
+        <div class="comment" data-aos="fade-up" data-aos-duration="2000">
+          <h1 class="petik-left" data-aos="fade-right" data-aos-duration="2000">
+            "
+          </h1>
+          <h1 class="petik-right" data-aos="fade-left" data-aos-duration="2000">
+            "
+          </h1>
           <p class="paraghraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel
             lobortis tincidunt fames quisque mauris at diam. Nullam morbi ipsum
@@ -134,7 +146,7 @@
             dolor in reprehenderit in voluptate velit esse cillum dolore.
           </p>
         </div>
-        <div class="people-image">
+        <div class="people-image" data-aos="fade-down" data-aos-duration="2000">
           <div class="image-container">
             <img src="assets/people01.png" alt="testimonials-picture" />
           </div>
@@ -151,7 +163,7 @@
             <img src="assets/people05.png" alt="testimonials-picture" />
           </div>
         </div>
-        <div class="people-name">
+        <div class="people-name" data-aos="fade-up" data-aos-duration="2000">
           <h3 class="text-paraghraph">
             Jane Huston
           </h3>
@@ -163,7 +175,7 @@
 
     <!-- start services -->
     <section id="services" class="container">
-      <div class="newsletter">
+      <div class="newsletter" data-aos="fade-right" data-aos-duration="2000">
         <h1 class="text-subtitle">
           How We Can Help You
         </h1>
@@ -178,7 +190,7 @@
         </div>
       </div>
       <div class="services">
-        <div class="service">
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
           <div class="card">
             <img src="assets/ux.svg" alt="services-logo" />
             <h3 class="text-paraghraph">UI/UX Design</h3>
@@ -187,7 +199,7 @@
             </p>
           </div>
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-up" data-aos-duration="3000">
           <div class="card">
             <img src="assets/logo-branding.svg" alt="services-logo" />
             <h3 class="text-paraghraph">Logo Branding</h3>
@@ -196,7 +208,7 @@
             </p>
           </div>
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
           <div class="card">
             <img src="assets/app design.svg" alt="services-logo" />
             <h3 class="text-paraghraph">App Design</h3>
@@ -205,7 +217,7 @@
             </p>
           </div>
         </div>
-        <div class="service">
+        <div class="service" data-aos="fade-up" data-aos-duration="3000">
           <div class="card">
             <img src="assets/web design.svg" alt="services-logo" />
             <h3 class="text-paraghraph">Website Design</h3>
@@ -260,6 +272,7 @@
 
     <script>
       feather.replace()
+      AOS.init()
     </script>
     <script src="js/app.js"></script>
   </body>
